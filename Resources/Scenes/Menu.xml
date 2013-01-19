@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<nvtech version="1.0.0 r1">
+    <scene name="menu">
+        <group name="dimmed_overlay">
+            <component type="NVScreenSpacedRectangle" />
+        </group>
+        <group name="menu_play">
+            <component type="SBUIMenuPlay" />
+            <component type="SBUIMenuPlayController" />
+        </group>
+        <group name="menu_about">
+            <component type="SBUIMenuAbout" />
+            <component type="SBUIMenuAboutController" />
+        </group>
+        <group name="menu_about_contents">
+            <component type="SBUIMenuAboutContents" />
+            <component type="SBUIMenuAboutContentsController" />
+        </group>
+        <group name="menu_logo">
+            <component type="SBUIMenuLogo" />
+            <component type="SBUIMenuLogoController" />
+        </group>
+        <group name="menu_menu">
+            <component type="SBUIMenuMenu" />
+            <component type="SBUIMenuMenuController" />
+        </group>
+        <group name="menu_back">
+            <component type="SBUIMenuBack" />
+            <component type="SBUIMenuBackController" />
+        </group>
+        <group name="menu_dock">
+            <component type="SBUIMenuDock" />
+            <component type="SBUIMenuDockController" />
+        </group>
+        <group name="setup_menu_scene">
+            <component type="SBSetupMenuScene" />
+        </group>
+    </scene>
+</nvtech>

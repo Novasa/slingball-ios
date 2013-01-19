@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<nvtech version="1.0.0 r1">
+    <scene name="loading">
+        <group name="loading_indicator">
+            <template file="LoadingIndicator" />
+        </group>
+    </scene>
+</nvtech>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<nvtech version="1.0.0 r1">
+    <template>
+        <component type="SBSlingBody" />
+        <component type="SBSlingHeadCollider" />
+        <component type="SBSlingCollisionController" />
+        <component type="SBSlingController" />
+        <component type="SBSling" />
+        <component type="SBSlingHead" />
+        <component type="SBSlingIdlePulseController" />
+        <component type="SBSlingIdlePulse" />
+        <component type="SBSlingRibbonController" />
+        <component type="SBSlingRibbon" />
+    </template>
+</nvtech>

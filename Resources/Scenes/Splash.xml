@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<nvtech version="1.0.0 r1">
+    <scene name="splash">
+        <group name="splash">
+            <component type="SBSplashController" />
+            <component type="SBSplashLogo" />
+        </group>
+        <group name="splash_particles">
+            <component type="SBSplashParticlesController" />
+            <component type="SBSplashParticles" />
+        </group>
+        <group name="splash_scene_setup">
+            <component type="SBSetupSplashScene" runOnce="YES" />
+        </group>
+    </scene>
+</nvtech>

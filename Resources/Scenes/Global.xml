@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<nvtech version="1.0.0 r1">
+    <scene name="global">
+        <group name="camera">
+            <component type="NVLookAtCamera" persistent="YES" />
+            <component type="NVFullscreenFadeInOutController" persistent="YES" />
+            <component type="SBAccelerometerSensitive" persistent="YES" />
+            <component type="SBScanlines" persistent="YES" />
+        </group>
+        <group name="audio">
+            <component type="SBGlobalAudioSource" persistent="YES" />
+        </group>
+    </scene>
+</nvtech>

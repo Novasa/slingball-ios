@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<nvtech version="1.0.0 r1">
+    <template>
+        <component type="SBLoadingIndicatorController" />
+        <component type="SBLoadingIndicator" />
+    </template>
+</nvtech>

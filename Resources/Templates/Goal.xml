@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<nvtech version="1.0.0 r1">
+    <template>
+        <component type="SBGoalBody" />
+        <component type="SBGoalController" />
+        <component type="SBGoal" />
+    </template>
+</nvtech>

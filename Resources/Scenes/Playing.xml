@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<nvtech version="1.0.0 r1">
+    <scene name="playing">
+        <group name="feathered_grid">
+            <component type="SBFeatheredGrid" />
+        </group>
+        <group name="glowing_box_boundary">
+            <component type="SBGlowingBoxBoundary" />
+        </group>
+        <group name="playing_field">
+            <component type="SBPlayingField" />
+        </group>
+        <group name="collision_particles">
+            <component type="SBCollisionParticlesController" />
+            <component type="SBCollisionParticles" />
+        </group>
+        <group name="ball">
+            <component type="SBBallController" />
+            <component type="SBBallCollider" />
+            <component type="SBBall" />
+            <component type="SBBallOuterRings" />
+            <component type="SBBallRibbonController" />
+            <component type="SBBallRibbon" />
+            <component type="SBBallExplosionParticlesController" />
+            <component type="SBBallExplosionParticles" />
+        </group>
+        <group name="player_one">
+            <template file="Sling" />        
+        </group>
+        <group name="player_two">
+            <template file="Sling" />
+        </group>
+        <group name="player_explosion">
+            <component type="SBSlingHeadExplosionParticlesController" />
+            <component type="SBSlingHeadExplosionParticles" />
+        </group>
+        <group name="player_one_goal">
+            <template file="Goal" />
+        </group>
+        <group name="player_two_goal">
+            <template file="Goal" />
+        </group>
+        <group name="scoreboard">
+            <component type="SBScoreBoardController" />
+            <component type="SBScoreBoard" />
+        </group>        
+        <group name="floating_text">
+            <component type="SBFloatingTextController" />
+            <component type="SBFloatingText" />
+        </group>
+        <group name="playing_field_sweep">
+            <component type="SBPlayingFieldSweepController" />
+            <component type="SBPlayingFieldSweep" />
+            <component type="SBPlayingFieldSweepBeam" />
+        </group>
+        <group name="referee">
+            <component type="SBReferee" />
+        </group>
+        <group name="collisions">
+            <component type="SBSlingSlingCollisionController" />
+        </group>
+        <group name="player_one_instructions">
+            <component type="SBInstructionsController" />
+            <component type="SBInstructions" />
+        </group>
+        <group name="player_two_instructions">
+            <component type="SBInstructionsController" />
+            <component type="SBInstructions" />
+        </group>
+        <group name="playing_scene_setup">
+            <component type="SBSetupPlayingScene" />
+        </group>
+    </scene>
+</nvtech>
