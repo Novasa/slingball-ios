@@ -9,8 +9,6 @@
 #import "NVComponentDatabase.h"
 #import "NVComponent.h"
 
-#import "NSObject+Additions.h"
-
 #import <objc/runtime.h>
 
 @implementation NVComponentDatabase

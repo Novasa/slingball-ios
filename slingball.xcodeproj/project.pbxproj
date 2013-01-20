@@ -18,7 +18,6 @@
 		D686994411439BE400CA4F0A /* NVScreenSpacedOrthographicCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = D686994211439BE400CA4F0A /* NVScreenSpacedOrthographicCamera.m */; };
 		D6869C0B1144279B00CA4F0A /* particle-fade.png in Resources */ = {isa = PBXBuildFile; fileRef = D6869C0A1144279B00CA4F0A /* particle-fade.png */; };
 		D6869C0C1144279B00CA4F0A /* particle-fade.png in Resources */ = {isa = PBXBuildFile; fileRef = D6869C0A1144279B00CA4F0A /* particle-fade.png */; };
-		D68A2B9211366FBA002B9C5D /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D68A2B9111366FBA002B9C5D /* NSObject+Additions.m */; };
 		D68E07A311381BF6001BDB57 /* SBUIMenuAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E07A211381BF6001BDB57 /* SBUIMenuAbout.m */; };
 		D68E07A611381C14001BDB57 /* SBUIMenuAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E07A511381C14001BDB57 /* SBUIMenuAboutController.m */; };
 		D68E07BC11381DD7001BDB57 /* SBUIMenuAboutContents.m in Sources */ = {isa = PBXBuildFile; fileRef = D68E07BB11381DD7001BDB57 /* SBUIMenuAboutContents.m */; };
@@ -157,7 +156,6 @@
 		D6BC2659113AB960006C7130 /* mat4.c in Sources */ = {isa = PBXBuildFile; fileRef = D6E4DEDB11316652009120F0 /* mat4.c */; };
 		D6BC265A113AB960006C7130 /* matrix_impl.c in Sources */ = {isa = PBXBuildFile; fileRef = D6E4DEDD11316652009120F0 /* matrix_impl.c */; };
 		D6BC265B113AB960006C7130 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4DEEA11316652009120F0 /* NSData+Additions.m */; };
-		D6BC265C113AB960006C7130 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D68A2B9111366FBA002B9C5D /* NSObject+Additions.m */; };
 		D6BC265D113AB960006C7130 /* NVAudioCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D6950C3B113522EC00ADB275 /* NVAudioCache.m */; };
 		D6BC265E113AB960006C7130 /* NVAudioSupport.c in Sources */ = {isa = PBXBuildFile; fileRef = D6950C3C113522EC00ADB275 /* NVAudioSupport.c */; };
 		D6BC265F113AB960006C7130 /* NVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4DEBE11316652009120F0 /* NVCamera.m */; };
@@ -345,8 +343,6 @@
 		D686994111439BE400CA4F0A /* NVScreenSpacedOrthographicCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVScreenSpacedOrthographicCamera.h; sourceTree = "<group>"; };
 		D686994211439BE400CA4F0A /* NVScreenSpacedOrthographicCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVScreenSpacedOrthographicCamera.m; sourceTree = "<group>"; };
 		D6869C0A1144279B00CA4F0A /* particle-fade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "particle-fade.png"; sourceTree = "<group>"; };
-		D68A2B9011366FBA002B9C5D /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Additions.h"; path = "../NSObject+Additions.h"; sourceTree = "<group>"; };
-		D68A2B9111366FBA002B9C5D /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Additions.m"; path = "../NSObject+Additions.m"; sourceTree = "<group>"; };
 		D68E070A11381274001BDB57 /* SBTextures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBTextures.h; sourceTree = "<group>"; };
 		D68E07A111381BF6001BDB57 /* SBUIMenuAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBUIMenuAbout.h; sourceTree = "<group>"; };
 		D68E07A211381BF6001BDB57 /* SBUIMenuAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBUIMenuAbout.m; sourceTree = "<group>"; };
@@ -1188,8 +1184,6 @@
 		D6E4DEE811316652009120F0 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				D68A2B9011366FBA002B9C5D /* NSObject+Additions.h */,
-				D68A2B9111366FBA002B9C5D /* NSObject+Additions.m */,
 				D6E4DEE911316652009120F0 /* NSData+Additions.h */,
 				D6E4DEEA11316652009120F0 /* NSData+Additions.m */,
 				D6E4DEEB11316652009120F0 /* SynthesizeSingleton.h */,
@@ -1450,7 +1444,6 @@
 				D6950C41113522EC00ADB275 /* NVAudioSupport.c in Sources */,
 				D6950D4C113561AB00ADB275 /* SBBallExplosionParticles.m in Sources */,
 				D6950D50113561B600ADB275 /* SBBallExplosionParticlesController.m in Sources */,
-				D68A2B9211366FBA002B9C5D /* NSObject+Additions.m in Sources */,
 				D66A6E261136C8E8004BB2B3 /* NVInterpolator.m in Sources */,
 				D66A6E311136C9BC004BB2B3 /* NVInterpolatorVector3.m in Sources */,
 				D692F32F1137CFD100941423 /* SBUIMenuLogo.m in Sources */,
@@ -1488,7 +1481,6 @@
 				D6BC2659113AB960006C7130 /* mat4.c in Sources */,
 				D6BC265A113AB960006C7130 /* matrix_impl.c in Sources */,
 				D6BC265B113AB960006C7130 /* NSData+Additions.m in Sources */,
-				D6BC265C113AB960006C7130 /* NSObject+Additions.m in Sources */,
 				D6BC265D113AB960006C7130 /* NVAudioCache.m in Sources */,
 				D6BC265E113AB960006C7130 /* NVAudioSupport.c in Sources */,
 				D6BC265F113AB960006C7130 /* NVCamera.m in Sources */,
