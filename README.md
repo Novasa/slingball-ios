@@ -14,7 +14,7 @@ There's no awkward dependencies, and all rendering is straight-up fixed-pipeline
 
 Xcode 4.4 should be able to compile the project just fine for devices, though you might need to make sure that it uses the LLVM GCC compiler rather than the default LLVM.
 
-<br>
+<br />
 
 ![logo](https://raw.github.com/novasa/slingball-ios/master/slingball-logo.png)
 
